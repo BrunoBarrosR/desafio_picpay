@@ -6,7 +6,7 @@ Este projeto é um **CRUD** (Create, Read, Update, Delete) simples para a gestã
 Praticar a construção de uma aplicação backend com Spring Boot, incluindo operações de:
 - **Criação de produtos**;
 - **Leitura de produtos**;
-- **Atualização de produtos**;,,,,,,,,
+- **Atualização de produtos**;
 - **Exclusão de produtos**.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -15,6 +15,14 @@ Praticar a construção de uma aplicação backend com Spring Boot, incluindo op
 - **Spring Data JPA**: Abstração para persistência de dados.
 - **H2 Database**: Banco de dados em memória para testes e desenvolvimento.
 - **Postman**: Testes das APIs REST (opcional).
+
+Regras de negócios:
+- Serviço deve ser RESTFul;
+- Validar se o usuário possui saldo antes da transferência;
+- Antes de finalizar a transferência, deve-se consultar um serviço autorizador externo;
+- A operação de transferência deve ser uma transação (ou seja, revertida em qualquer caso de incosistência);
+- No recebimento de pagamento, o usuário ou lojista precisa receber notificação (email, sms) enviada por um serviço de terceiro e eventualmente este serviço pode estar indisponível/instável.
+
 
 ## 🔧 Como Rodar o Projeto
 1. Clone este repositório:
