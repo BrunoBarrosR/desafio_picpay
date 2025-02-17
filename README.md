@@ -27,7 +27,7 @@ Regras de negócios:
 ## 🔧 Como Rodar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/BrunoBarrosR/desafio_picpay.git
 Navegue até o diretório do projeto:
 
 cd nome-do-repositorio
