@@ -10,7 +10,7 @@ Praticar a construção de uma aplicação backend com Spring Boot, incluindo op
 - **Exclusão de produtos**.
 
 ## 🛠️ Tecnologias Utilizadas
-- **Java 17**: Linguagem de programação principal.
+- **Java 21**: Linguagem de programação principal.
 - **Spring Boot**: Framework para criação de aplicações Java.
 - **Spring Data JPA**: Abstração para persistência de dados.
 - **H2 Database**: Banco de dados em memória para testes e desenvolvimento.
